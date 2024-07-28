@@ -21,8 +21,8 @@ The Satellite Command System is a Java-based simulation application that demonst
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/Harinineon/satellite-simulation.git
-cd satellite-command-system
+git clone https://github.com/Harinineon/EI-coding-exercise.git
+cd satellite
 ```
 
 ### Build and Run
@@ -105,19 +105,6 @@ Rotating satellite to North.
 Current satellite state: Satellite [orientation=North, solarPanelsActive=false, dataCollected=0]
 =====================================
 ```
-
-## Contributing
-
-Contributions are welcome! Please follow these steps to contribute:
-
-1. Fork the repository.
-2. Create a new branch for your feature or fix.
-3. Make your changes and test them.
-4. Submit a pull request with a clear description of your changes.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Contact
 
