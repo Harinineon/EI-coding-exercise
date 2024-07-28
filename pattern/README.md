@@ -50,3 +50,7 @@
   - `adapter/StripePayment.java`: The adaptee class.
   - `adapter/StripeAdapter.java`: The adapter class.
   - `adapter/PaymentGateway.java`: The target interface.
+    
+## Contact
+
+For any questions or suggestions, please contact me at [your-email@example.com].
