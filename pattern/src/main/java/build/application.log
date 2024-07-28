@@ -1,0 +1,4 @@
+2024-07-28 11:02:56 INFO: Application started.
+2024-07-28 11:02:56 | Customer: harini | Transaction ID: 794e2 | Order: Espresso, with Milk, with Soy | Payment Method: Credit Card | Amount: $8.0
+2024-07-28 11:03:56 INFO: Application started.
+2024-07-28 11:03:56 | Customer: neon | Transaction ID: 1c0ab | Order: Espresso, with Milk, with Mocha | Payment Method: PayPal | Amount: $9.0
