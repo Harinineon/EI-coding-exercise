@@ -5,8 +5,8 @@
 - **Description**: The observer pattern is used to notify multiple objects about state changes in another object.
 - **Usage**: In this project, the observer pattern is used to notify customers when their order status changes.
 - **Files**:
-  - `observer/Customer.java`: The observer interface.
-  - `observer/RegularCustomer.java` and `observer/VIPCustomer.java`: Concrete observer implementations.
+  - `observer/Observer.java`: The observer interface.
+  - `observer/Customer.java`: Concrete observer implementation.
   - `observer/Order.java`: The subject that notifies observers of changes.
 
 #### Logger Pattern
@@ -14,9 +14,7 @@
 - **Description**: The logger pattern is used to log events for debugging and monitoring.
 - **Usage**: In this project, the logger is used to log information such as order details, payment status, and errors.
 - **Files**:
-  - `logger/LoggerFactory.java`: Factory class for creating loggers.
-  - `logger/ConsoleLogger.java`: Concrete logger that logs to the console.
-  - `logger/FileLogger.java`: Concrete logger that logs to a file.
+  - `logger/Logger.java`: Factory class for creating loggers.
 
 #### Strategy Pattern
 
@@ -25,7 +23,6 @@
 - **Files**:
   - `strategy/PaymentStrategy.java`: The strategy interface.
   - `strategy/CreditCardPayment.java` and `strategy/PayPalPayment.java`: Concrete strategy implementations.
-  - `strategy/Order.java`: Context class that uses the strategy.
 
 #### Factory Pattern
 
@@ -34,8 +31,6 @@
 - **Files**:
   - `factory/CoffeeFactory.java`: The factory interface.
   - `factory/EspressoFactory.java` and `factory/LatteFactory.java`: Concrete factory implementations.
-  - `factory/Coffee.java`: The product interface.
-  - `factory/Espresso.java` and `factory/Latte.java`: Concrete product implementations.
 
 #### Decorator Pattern
 
@@ -43,9 +38,9 @@
 - **Usage**: In this project, the decorator pattern is used to add different ingredients to coffee.
 - **Files**:
   - `decorator/Coffee.java`: The component interface.
-  - `decorator/BasicCoffee.java`: Concrete component implementation.
+  - `decorator/Espresso.java`, `decorator/Latte.java`: Concrete component implementation.
   - `decorator/CoffeeDecorator.java`: Decorator base class.
-  - `decorator/MilkDecorator.java` and `decorator/SugarDecorator.java`: Concrete decorators.
+  - `decorator/MilkDecorator.java`,`decorator/SoyDecorator.java` and `decorator/MochaDecorator.java`: Concrete decorators.
 
 #### Adapter Pattern
 
@@ -53,5 +48,5 @@
 - **Usage**: In this project, the adapter pattern is used to integrate a third-party payment gateway.
 - **Files**:
   - `adapter/StripePayment.java`: The adaptee class.
-  - `adapter/StripePaymentAdapter.java`: The adapter class.
+  - `adapter/StripeAdapter.java`: The adapter class.
   - `adapter/PaymentGateway.java`: The target interface.
